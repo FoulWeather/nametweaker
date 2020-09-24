@@ -51,7 +51,7 @@ Turn off the Leaptop, disconnect it from the computer and turn it back on. The L
 If the name recording is too loud here is a tweak to lower the volume of the mp3 file to 70% of the original (adjust as necessary). The example below uses the name 'jane' but use the correct file from your download:
 ```
 sudo apt install sox lame libsox-fmt-mp3
-mv jane jane-orig.mp3
+mv jane.mp3 jane-orig.mp3
 sox -v 0.7 jane-orig.mp3 jane.mp3
 ```
 
